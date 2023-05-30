@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.InformationFragment"
+    android:background="@drawable/img_2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="NotesApp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="70dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:columnCount="2"
+        android:rowCount="3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dengan NotesApp, Buatlah Jejak yang Tidak Pernah Terlupakan, Catatan yang Mudah, Ide yang Menginspirasi, NotesApp Membantu Anda Tetap Terorganisir adikan Setiap Pikiran Bernilai Manfaatkan Kemudahan NotesApp."
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
